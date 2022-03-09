@@ -209,13 +209,43 @@ nav ul li a:hover{
     width: 350px;
 }
 .as_seen .container{
-    width: 40%;
+    width: 50%;
 }
 .as_seen .container .as_seen1{
     height:560px ;
     width: 550px;
     margin-bottom: 40px;
 }
+.as_seen .as_seen2{
+    margin-bottom: 100px;
+}
+.accordion-button::after{
+    display: none!important;
+}
+.accordion-button::before {
+    flex-shrink: 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 0;
+    margin-right: 30px;
+    content: "";
+    background-image: url(../image/plus.png)!important;
+    background-repeat: no-repeat;
+    background-size: 2.25rem;
+    transition: transform .2s ease-in-out;
+}
+.accordion-button:not(.collapsed)::after{
+    display: none!important;
+}
+.accordion-button:not(.collapsed)::before {
+    background-image: url(../image/minus.png)!important;
+    transform: rotate(-180deg);
+}
+.collapsed{
+    font-size: 24px;
+    font-weight: 400;
+}
+
 
 
 
@@ -457,7 +487,22 @@ nav ul li a:hover{
 }
 .as_seen .container {
     width: 90%;
-    padding-left: 45px;
+    padding-left: 20px;
+}
+.accordian{
+    margin-left:-20px!important ;
+}
+.accordion-button::before {
+    flex-shrink: 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 0;
+    margin-right: 10px;
+    content: "";
+    background-image: url(../image/plus.png)!important;
+    background-repeat: no-repeat;
+    background-size: 2.25rem;
+    transition: transform .2s ease-in-out;
 }
 }
 @media(max-width:376px){
@@ -487,6 +532,9 @@ nav ul li a:hover{
         height: 405px;
         width: 100%;
         margin-top: 200px;
+    }
+    .as_seen .as_seen2 {
+        margin-bottom: 46px;
     }
     
 }
