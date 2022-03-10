@@ -198,7 +198,7 @@ nav ul li a:hover{
 
 /**********as seen********/
 .as_seen{
-    height: 600px;
+    height: 1830px;
     width: 100%;
 }
 .as_seen .container p{
@@ -245,6 +245,57 @@ nav ul li a:hover{
     font-size: 24px;
     font-weight: 400;
 }
+/********fitness from within******/
+.within{
+    height: 1200px;
+    width: 100%;
+    background-color: #e74c3c;
+    color: #fff;
+    padding-top: 9%;
+}
+.within .container{
+    width: 60%;
+}
+.within h3{
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+.within h1{
+    font-size: 80px;
+    font-weight: 700;
+    margin-top: 7%;
+    text-align: center;
+}
+.within p{
+    font-size: 22px;
+    width: 70%;
+}
+.within .middle{
+    height: 100px;
+    width: 100%;
+    box-shadow: 6px 6px 20px rgb(73, 71, 71);
+    text-align: center;
+    padding: 2% 0;
+    margin: 10% 0;
+}
+
+.within .middle .col a{
+    height: 50px;
+    font-size: 36px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+
+}
+.within .middle .col a:hover{
+    color: black;
+}
+.within .middle .colsp{
+    border-left: 1px solid #888;
+    border-right: 1px solid #888;
+}
 
 
 
@@ -260,6 +311,14 @@ nav ul li a:hover{
         box-shadow: 7px 7px 40px #888;transition: transform .4s ease;
         display: flex;
         padding: 43px;
+    }
+    .within .middle{
+        height: 100px;
+        width: 100%;
+        box-shadow: 6px 6px 20px rgb(73, 71, 71);
+        text-align: center;
+        padding: 3% 0!important;
+        margin: 10% 0;
     }
 }
 @media(max-width:769px){
@@ -352,6 +411,10 @@ nav ul li a:hover{
 }
 
 /**********as seen********/
+.as_seen {
+    height: 1500px;
+    width: 100%;
+}
 .as_seen .container {
     width: 90%;
     padding-left: 62px;
@@ -372,6 +435,47 @@ nav ul li a:hover{
     font-size: 16px;
     font-weight: 400;
     width: 350px;
+}
+.within h3 {
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+.within h1 {
+    font-size: 56px;
+    font-weight: 700;
+    margin-top: 7%;
+    text-align: center;
+}
+.within .container {
+    width: 80%;
+}
+.within {
+    height: 915px;
+    width: 100%;
+    background-color: #e74c3c;
+    color: #fff;
+    padding-top: 9%;
+}
+.within .middle .col a {
+    height: 50px;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+}
+.within .middle {
+    height: 70px;
+    width: 100%;
+    box-shadow: 6px 6px 20px rgb(73 71 71);
+    text-align: center;
+    padding: 3% 0!important;
+    margin: 10% 0;
+}
+.within p {
+    font-size: 16px;
+    width: 60%;
 }
 
 }
@@ -504,6 +608,46 @@ nav ul li a:hover{
     background-size: 2.25rem;
     transition: transform .2s ease-in-out;
 }
+.as_seen .as_seen2 {
+    margin-bottom: 72px;
+}
+.as_seen {
+    height: 1350px;
+    width: 100%;
+}
+.within .container {
+    width: 90%;
+}
+.within h3 {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+.within h1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 7%;
+    text-align: center;
+}
+.within .middle .col a {
+    height: 50px;
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+}
+.within p {
+    font-size: 16px;
+    width: 90%;
+}
+.within {
+    height: 815px;
+    width: 100%;
+    background-color: #e74c3c;
+    color: #fff;
+    padding-top: 9%;
+}
 }
 @media(max-width:376px){
     .video .container{
@@ -535,6 +679,13 @@ nav ul li a:hover{
     }
     .as_seen .as_seen2 {
         margin-bottom: 46px;
+    }
+    .within {
+        height: 850px;
+        width: 100%;
+        background-color: #e74c3c;
+        color: #fff;
+        padding-top: 9%;
     }
     
 }
