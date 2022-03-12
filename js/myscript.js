@@ -39,4 +39,8 @@ $(document).ready(function(){
                 }
             }
         });
+
+        $(function() {
+            $("#toTop").scrollToTop(1000);
+       });
   });

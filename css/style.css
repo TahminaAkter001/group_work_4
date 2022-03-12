@@ -596,7 +596,21 @@ nav ul li a:hover{
     color: #000;
     border-bottom:2px solid #e74c3c;
 }
-.footer{}
+#toTop {
+    display: none;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    width: 64px;
+    height: 64px;
+    background-image: url(../image/up.png);
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+#toTop:hover {
+    opacity: 0.8;
+}
 
 
 
@@ -931,8 +945,8 @@ nav ul li a:hover{
         color: black;
     }
     /****************video**********/
-    .smallpart{
-        margin-top: -255px;
+    .smallpart {
+        margin-top: -233px;
     }
     .video {
         height: 253px;
@@ -1208,6 +1222,19 @@ nav ul li a:hover{
     height: 100px;
     width: 100%;
     text-align: center;
+}
+#toTop {
+    display: none;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 50px!important;
+    height: 50px!important;
+    background-image: url(../image/up.png);
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    border-radius: 10px;
 }
 }
 @media(max-width:376px){
