@@ -219,10 +219,10 @@ nav ul li a:hover{
 .as_seen .as_seen2{
     margin-bottom: 100px;
 }
-.accordion-button::after{
+.as_seen .accordion-button::after{
     display: none!important;
 }
-.accordion-button::before {
+.as_seen .accordion-button::before {
     flex-shrink: 0;
     width: 2.5rem;
     height: 2.5rem;
@@ -234,11 +234,11 @@ nav ul li a:hover{
     background-size: 2.25rem;
     transition: transform .2s ease-in-out;
 }
-.accordion-button:not(.collapsed)::after{
+.as_seen .accordion-button:not(.collapsed)::after{
     display: none!important;
 }
-.accordion-button:not(.collapsed)::before {
-    background-image: url(../image/minus.png)!important;
+.as_seen .accordion-button:not(.collapsed)::before {
+    background-image: url(../image/min.png)!important;
     transform: rotate(-180deg);
 }
 .collapsed{
@@ -297,6 +297,180 @@ nav ul li a:hover{
     border-right: 1px solid #888;
 }
 
+/**************protien*******/
+.protien{
+    height: 450px;
+    width: 100%;
+}
+.protien .container{
+    width: 40%;
+    margin-left: 50%;
+}
+.protien h3{
+    font-size: 46px;
+    font-weight: 700;
+    margin: 80px 0 20px 0;
+    text-transform: uppercase;
+}
+.protien h3 span{
+    color: #e74c3c;
+}
+.protien p{
+    font-size: 24px;
+    color: black;
+    margin-bottom: 100px;
+}
+/**************rule2*******/
+.rule2{
+    height: 550px;
+    width: 100%;
+    background-color: black;
+}
+.rule2 .container{
+    width: 40%;
+    margin-right: 40%;
+}
+.rule2 h3{
+    font-size: 46px;
+    font-weight: 700;
+    padding: 80px 0 20px 0;
+    color: #fff;
+    text-transform: uppercase;
+}
+.rule2 h3 span{
+    color: #e74c3c;
+}
+.rule2 p{
+    font-size: 24px;
+    color: #fff;
+    padding-bottom: 100px;
+}
+/****************our products********/
+.our_products{
+    height:450px;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+.our_products .container{
+    width: 70%;
+    text-align: center;
+    padding: 60px 0;
+}
+.our_products h1,
+.process .container h1{
+    font-size: 100px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.our_products p{
+    font-size: 24px;
+    font-weight: 400;
+}
+/***************owl 1************/
+.owl-car .owl{
+    
+    padding: 70px;
+    box-shadow: 4px 4px 20px rgb(66, 65, 65);
+}
+.owl-car .owl:hover{
+    background-color: #e74c3c;
+}
+/****************two_cordian*********/
+.two_accordian{
+    height: auto;
+    width: 100%;
+    background-color: #e74c3c;
+    padding: 5% 0;
+}
+.two_accordian .container{
+    width: 80%;
+}
+.two_accordian .accordion-body {
+    background-color: #e74c3c;
+    color: #fff;
+}
+.two_accordian .accordion-item {
+    background-color: #e74c3c;
+    border: 1px solid #888;
+
+}
+.two_accordian .accordian{
+    padding-top: 3%;
+}
+.two_accordian .accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color: #e74c3c;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.two_accordian .accord_left .accordion-button::after {
+        flex-shrink: 0;
+        width: 2.25rem;
+        height: 2.25rem;
+        margin-left: 20px;
+        content: "";
+        background-image: url(../image/plus.png);
+        background-repeat: no-repeat;
+        background-size: 2.25rem;
+        transition: transform .2s ease-in-out;
+        background-color: #e74c3c!important;
+    }
+    .two_accordian .accord_left .accordion-button:not(.collapsed)::after {
+        background-image: url(../image/min.png)!important;
+        background-color: #e74c3c!important;
+        transform: rotate(-180deg);
+    }
+
+
+    .two_accordian .accordion-button{
+        background-color: #e74c3c!important;
+        color: #fff!important;
+        
+    }
+.two_accordian .accord_right .accordion-button::after{
+    display: none!important;
+}
+.two_accordian .accord_right .accordion-button::before {
+    flex-shrink: 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 0;
+    margin-right: 30px;
+    content: "";
+    background-image: url(../image/plus.png)!important;
+    background-color: #e74c3c!important;
+    background-repeat: no-repeat;
+    background-size: 2.25rem;
+    transition: transform .2s ease-in-out;
+}
+.two_accordian .accord_right .accordion-button:not(.collapsed)::after{
+    display: none!important;
+}
+.two_accordian .accord_right .accordion-button:not(.collapsed)::before {
+    background-image: url(../image/min.png)!important;
+    background-color: #e74c3c!important;
+    transform: rotate(-180deg);
+}
+.collapsed{
+    font-size: 24px;
+    font-weight: 400;
+}
+.accordion-button {
+    font-size: 24px!important;
+}
+
+/***********process********/
+.process{}
+.process .container{
+    width: 65%;
+    text-align: center;
+}
+
+.process .container h1 span{
+    color: #e74c3c;
+}
+.process .container p{
+    font-size: 24px;
+}
 
 
 
@@ -412,7 +586,7 @@ nav ul li a:hover{
 
 /**********as seen********/
 .as_seen {
-    height: 1500px;
+    height:auto;
     width: 100%;
 }
 .as_seen .container {
@@ -441,6 +615,7 @@ nav ul li a:hover{
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
+    text-transform: uppercase;
 }
 .within h1 {
     font-size: 56px;
@@ -478,6 +653,77 @@ nav ul li a:hover{
     width: 60%;
 }
 
+.protien h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 80px 0 20px 0;
+    text-transform: uppercase;
+}
+.protien p {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 100px;
+}
+.protien .container {
+    width: 51%;
+    margin-left: 44%;
+}
+.protien {
+    height: 350px;
+    width: 100%;
+}
+.rule2 h3 {
+    font-size: 30px;
+    font-weight: 700;
+    padding: 50px 0 5px 0;
+    color: #fff;
+    text-transform: uppercase;
+}
+.rule2 p {
+    font-size: 16px;
+    color: #fff;
+    padding-bottom: 100px;
+}
+.rule2 .container {
+    width: 50%;
+    margin-right: 38%;
+}
+.rule2 {
+    height: 365px;
+    width: 100%;
+    background-color: black;
+}
+.protien {
+    height: 298px;
+    width: 100%;
+}
+.our_products h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+.our_products p {
+    font-size: 16px;
+    font-weight: 400;
+}
+.our_products {
+    height: 330px;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+.owl-car .owl {
+    padding: 50px;
+    box-shadow: 4px 4px 20px rgb(66 65 65);
+}
+.two_accordian .container {
+    width: 80%;
+    margin-left: 100px;
+}
+.two_accordian .accord_left{
+    padding-right: 30%;
+}
+.two_accordian .accord_right{
+    padding-left: 30%;
+}
 }
 @media(max-width:415px){
     .banner{
@@ -593,10 +839,10 @@ nav ul li a:hover{
     width: 90%;
     padding-left: 20px;
 }
-.accordian{
+.as_seen .accordian{
     margin-left:-20px!important ;
 }
-.accordion-button::before {
+.as_seen .accordion-button::before {
     flex-shrink: 0;
     width: 2.5rem;
     height: 2.5rem;
@@ -612,7 +858,7 @@ nav ul li a:hover{
     margin-bottom: 72px;
 }
 .as_seen {
-    height: 1350px;
+    height: auto;
     width: 100%;
 }
 .within .container {
@@ -647,6 +893,67 @@ nav ul li a:hover{
     background-color: #e74c3c;
     color: #fff;
     padding-top: 9%;
+}
+.two_accordian .container {
+    width:85%;
+    margin-left: 20px;
+}
+.two_accordian .accord_left{
+    padding-right: 0;
+}
+.two_accordian .accord_right{
+    padding-left: 0;
+    margin-top: 50px;
+}
+.two_accordian .accord_right .accordion-button::before {
+    flex-shrink: 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 0;
+    margin-right: 15px;
+}
+.protien h3 {
+    font-size: 26px;
+    font-weight: 700;
+    margin: 28px 0 7px 0;
+    text-transform: uppercase;
+}
+.protien .container {
+    width: 84%;
+    margin-left: 5%;
+}
+.protien {
+    height: 315px;
+    width: 100%;
+}
+.rule2 h3 {
+    font-size: 26px;
+    font-weight: 700;
+    padding: 35px 0 5px 0;
+    color: #fff;
+    text-transform: uppercase;
+}
+.rule2 .container {
+    width: 87%;
+    margin-right: 8%;
+}
+.rule2 {
+    height: 341px;
+    width: 100%;
+    background-color: black;
+}
+.our_products h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+.our_products .container {
+    width: 85%;
+    text-align: center;
+    padding: 30px 0;
+}
+.two_accordian .accord_right {
+    padding-left: 0;
+    margin-top: 20px;
 }
 }
 @media(max-width:376px){
@@ -686,6 +993,14 @@ nav ul li a:hover{
         background-color: #e74c3c;
         color: #fff;
         padding-top: 9%;
+    }
+    .protien {
+        height: 340px;
+        width: 100%;
+    }
+    .two_accordian .container {
+        width: 90%;
+        margin-left: 26px;
     }
     
 }
