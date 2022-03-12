@@ -198,8 +198,9 @@ nav ul li a:hover{
 
 /**********as seen********/
 .as_seen{
-    height: 1830px;
+    height: auto;
     width: 100%;
+    margin-bottom: 20px;
 }
 .as_seen .container p{
     margin-left: 325px;
@@ -356,8 +357,7 @@ nav ul li a:hover{
     text-align: center;
     padding: 60px 0;
 }
-.our_products h1,
-.process .container h1{
+.our_products h1{
     font-size: 100px;
     font-weight: 700;
     text-transform: uppercase;
@@ -459,10 +459,26 @@ nav ul li a:hover{
 }
 
 /***********process********/
-.process{}
+.process .our_team .owl h2 {
+        color: #000;
+        font-weight: 700;
+        font-size: 24px;
+        margin: 20px 0 10px;
+        text-transform: uppercase;
+    
+}
+.process .our_team .owl h2 span{
+    color: #e74c3c;
+}
 .process .container{
     width: 65%;
     text-align: center;
+}
+.process .container h1 {
+    font-size: 90px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 4%;
 }
 
 .process .container h1 span{
@@ -470,7 +486,117 @@ nav ul li a:hover{
 }
 .process .container p{
     font-size: 24px;
+    color: #000;
 }
+
+.our_team{
+    height: 900px;
+    width: 100%;
+    background-color: #e7f1f8;
+}
+.our_team .container{
+    width: 70%;
+    padding-top: 6%;
+}
+
+.our_team .owl-car{
+    margin-top:60px ;
+}
+
+.our_team .owl{
+    text-align: center;
+}
+
+.our_team .owl h2{
+    color: #3c4761;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 20px 0 10px;
+    text-transform: uppercase;
+}
+.our_team .owl p{
+    color: #3c4761;
+    font-weight: 300;
+    font-size: 16px;
+}
+.process .owl-car .owl {
+    padding: 40px;
+    box-shadow: unset;
+}
+.process .owl-car .owl:hover {
+    background-color: unset;
+}
+.process .our_team {
+    height: auto;
+    width: 100%;
+    margin-bottom: 5%;
+    background-color: #fff;
+}
+.process .our_team .container {
+    width: 70%;
+    padding-top: 0%;
+}
+
+.shape{
+    height: 400px;
+    width: 100%;
+    background-color: #e74c3c;
+    color: #fff;
+    text-align: center;
+}
+.shape .container{
+    width: 80%;
+}
+.shape h1{
+    font-size: 90px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 5%;
+}
+.shape p{
+    font-size: 24px;
+}
+.shape a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    padding-top: 4%;
+    display: block;
+}
+.shape a:hover{
+    color: #000;
+}
+/****************footer****/
+.footer{
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+.footer .container{
+    width: 50%;
+}
+.footer ul{
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer ul li{
+    margin: 20px;
+    list-style-type: none;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: #000;
+    padding-bottom: 10px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.footer ul li a:hover{
+    color: #000;
+    border-bottom:2px solid #e74c3c;
+}
+.footer{}
 
 
 
@@ -482,7 +608,8 @@ nav ul li a:hover{
     }  
     .smallpart .row .sm{
         background-color:rgb(250, 248, 248);
-        box-shadow: 7px 7px 40px #888;transition: transform .4s ease;
+        box-shadow: 7px 7px 40px #888;
+        transition: transform .4s ease;
         display: flex;
         padding: 43px;
     }
@@ -494,8 +621,12 @@ nav ul li a:hover{
         padding: 3% 0!important;
         margin: 10% 0;
     }
+    
 }
 @media(max-width:769px){
+    .accordion-button {
+        font-size: 16px!important;
+    }
     .banner{
         background-size:140% 550px;
         margin-top: -150px;
@@ -723,6 +854,65 @@ nav ul li a:hover{
 }
 .two_accordian .accord_right{
     padding-left: 30%;
+}
+.process .container h1 {
+    font-size: 55px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 10%;
+}
+.process .container p {
+    font-size: 16px;
+    color: #000;
+}
+.process .owl-car .owl {
+    padding: 30px;
+    box-shadow: unset;
+}
+.shape h1 {
+    font-size: 56px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 5%;
+}
+.shape p {
+    font-size: 16px;
+}
+.shape a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    padding-top: 3%;
+    display: block;
+}
+.shape {
+    height: 235px;
+    width: 100%;
+    background-color: #e74c3c;
+    color: #fff;
+    text-align: center;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: #000;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer .container {
+    width: 67%;
+}
+.footer {
+    height: 157px;
+    width: 100%;
+    text-align: center;
+}
+.footer ul {
+    margin-bottom: 0px;
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
 }
 }
 @media(max-width:415px){
@@ -955,6 +1145,70 @@ nav ul li a:hover{
     padding-left: 0;
     margin-top: 20px;
 }
+.process .container h1 {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 10%;
+}
+.process .container {
+    width: 80%;
+    text-align: center;
+}
+.process .owl-car .owl {
+    padding: 6px;
+    box-shadow: unset;
+}
+.shape h1 {
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 10%;
+}
+.shape a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 1%;
+    display: block;
+}
+.shape {
+    height: 188px;
+    width: 100%;
+    background-color: #e74c3c;
+    color: #fff;
+    text-align: center;
+}
+.footer ul {
+    margin-bottom: 0px;
+    padding-top: 5%;
+    display: flex;
+    justify-content: unset;
+    padding-left: 0rem!important;
+}
+.footer .container {
+    width: 95%;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: #000;
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.footer ul li{
+    margin: 10px;
+    list-style-type: none;
+}
+.footer p{
+    font-size: 12px;
+}
+.footer {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
 }
 @media(max-width:376px){
     .video .container{
@@ -1001,6 +1255,18 @@ nav ul li a:hover{
     .two_accordian .container {
         width: 90%;
         margin-left: 26px;
+    }
+    .shape .container {
+        width: 93%;
+    }
+    .footer ul li {
+        margin: 6px;
+        list-style-type: none;
+    }
+    .footer {
+        height: 90px;
+        width: 100%;
+        text-align: center;
     }
     
 }
